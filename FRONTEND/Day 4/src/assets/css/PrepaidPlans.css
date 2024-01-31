@@ -1,0 +1,60 @@
+.prepaid-plans-container {
+    padding: 20px;
+  }
+  
+  .prepaid-plans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .prepaid-plans-table th,
+  .prepaid-plans-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .prepaid-plans-table th {
+    background-color: #c964fb;
+    color: white;
+  }
+  
+  .prepaid-plans-table tr:nth-child(even) {
+    background-color: #fbade9;
+  }
+  
+  .prepaid-plans-table input {
+    width: 80%;
+    padding: 8px;
+    margin: 0;
+  }
+  
+  .prepaid-plans-table button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .prepaid-plans-table button:hover {
+    background-color: #297fb8;
+  }
+  
+  .prepaid-plans-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .prepaid-plans-button:hover {
+    background-color: #297fb8;
+  }
+  

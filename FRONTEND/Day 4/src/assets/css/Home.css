@@ -1,0 +1,88 @@
+/* Home.css */
+
+/* .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .header-container {
+    
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-container {
+    
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-container {
+    
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+   */
+   /* Home.css */
+
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.header-container,
+.navbar-container,
+.footer-container {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-slider {
+  position: relative;
+  width: 400px; /* Set a fixed width for the slider container */
+  height: 300px; /* Set a fixed height for the slider container */
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
+  opacity: 0; /* Initially hide all images */
+  position: absolute;
+  transition: transform 1s ease-in-out; /* Use a transform for sliding effect */
+}
+
+/* Show the current image initially */
+.image-slider img.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Move the next image into view */
+.image-slider img.next {
+  transform: translateX(100%);
+}
+
+/* Move the previous image into view */
+.image-slider img.prev {
+  transform: translateX(-100%);
+}
