@@ -1,0 +1,38 @@
+/* AddOperator.css */
+
+.add-operator-form {
+  max-width: 400px;
+  max-height: 500px; /* Adjust the max-height as needed */
+  margin: auto;
+  overflow: auto; /* Add overflow: auto to enable vertical scrolling if needed */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3498db;
+}

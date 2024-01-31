@@ -1,0 +1,82 @@
+/* AdminHome.css */
+
+/* Your existing styles for .adhome-container */
+.adhome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  padding: 20px;
+  margin-left: 413px;
+}
+
+.content-container {
+  margin-right: 310px;
+  position: fixed;
+}
+
+/* Your existing styles for h1, p, .welcome-section, .image-section, .image-card, .home-image */
+h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center; /* Center the image cards horizontally */
+  align-items: center; /* Center the image cards vertically */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.image-card {
+  width: 200px;
+  height: 250px; /* Adjust the height as needed */
+  margin: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.home-image {
+  width: 200%;
+  height: 100%; /* Auto-adjust height to maintain aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-bottom: 1px solid #ddd;
+}
+
+
+.image-card:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
+
+/* Additional styles for image cards with pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.image-card {
+  animation: pulse 2s infinite; /* Apply the pulse animation */
+}
+
+.image-card:hover {
+  animation: none; /* Disable the animation on hover */
+  transform: scale(1.1); /* Still apply the scale on hover */
+}

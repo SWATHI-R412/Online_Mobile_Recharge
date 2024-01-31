@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-image: url('https://images.pexels.com/photos/1156684/pexels-photo-1156684.jpeg?cs=srgb&dl=pexels-arun-thomas-1156684.jpg&fm=jpg');
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.login_selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.user-box,
+.admin-box {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 50px; /* Increase the padding for larger boxes */
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-box:hover,
+.admin-box:hover {
+  background-color: rgba(67, 73, 77, 0.8);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #be43fb;
+  color: #fff;
+  padding: 15px 20px; /* Increase the padding for larger buttons */
+  font-size: 18px; /* Increase the font size for larger buttons */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #be43fb;
+}
+
+.page-heading {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Ensure the boxes take full width */
+}
+
+/* Add this if you don't have it already */
+.admin-box {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
