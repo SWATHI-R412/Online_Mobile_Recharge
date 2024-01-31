@@ -1,0 +1,34 @@
+/* ViewOperator.css */
+h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.view-operator-container {
+    margin: 20px;
+  }
+  
+  .operator-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .operator-table th, .operator-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .operator-table th {
+    background-color: #d182f8;
+  }
+  
+  .operator-image {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  

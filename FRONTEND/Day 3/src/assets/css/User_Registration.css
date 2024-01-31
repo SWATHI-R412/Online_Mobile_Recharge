@@ -1,0 +1,108 @@
+.user-registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px; /* Set a max-width for the container */
+  height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-image: url('https://img.freepik.com/premium-photo/abstract-soft-pink-background_158469-2580.jpg?size=626&ext=jpg&ga=GA1.1.617973568.1689319237&semt=ais');
+  }
+  
+  .user-registration-content {
+    display: flex;
+    width: 900px; /* Adjust the width based on your design */
+  }
+  
+  .left-section {
+    flex: 1; /* Take up 1/2 of the container */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-section img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    width: 450px;
+  height: 440px;
+  border-radius: 0 !important;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Optional: You can add a slight vertical translation */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .right-section {
+    flex: 1; /* Take up 1/2 of the container */
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-registration-container h2 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width based on your design */
+    padding-left: 90px;
+  }
+  
+  button {
+    background-color: #be43fb;
+    color: #fff;
+    /* padding: 14px 20px; */
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #be43fb;
+  }
+  
+  p {
+    color: black; /* Darkened paragraph color, matching User_Login */
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    margin-bottom: 20px;
+    color: black; /* Darkened heading color */
+  }
+  
