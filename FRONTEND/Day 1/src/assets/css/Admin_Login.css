@@ -1,0 +1,82 @@
+.adlog-container {
+  display: flex;
+  width: 900px; /* Set a max-width for the container */
+  height: 500px;
+  margin: auto; /* Center the container */
+  /* background-color: rgba(255, 255, 255, 0.093);  */
+  background-image: url('https://img.freepik.com/free-vector/watercolor-pink-leaves-background_79603-1830.jpg?size=626&ext=jpg&ga=GA1.1.617973568.1689319237&semt=ais');
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Slightly increased box shadow */
+  margin-left: 30px;
+}
+
+.left-section {
+  flex: 1; /* Take up 1/2 of the container */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section img {
+  width: 450px;
+  height: 440px;
+  border-radius: 0 !important;
+  animation: scaleUp 1.5s ease-in-out; /* Example animation - fade in over 1.5 seconds with ease-in-out timing function */
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.right-section {
+  flex: 1; /* Take up 1/2 of the container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  color: black; /* Darkened heading color */
+}
+
+.error {
+  color: #ff0000;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #be43fb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9932cc;
+}
