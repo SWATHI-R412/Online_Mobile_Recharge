@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/display-template-with-smartphone_79603-1240.jpg?size=626&ext=jpg&ga=GA1.1.617973568.1689319237&semt=ais');
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.user-login-container {
+  display: flex;
+  width: 900px; /* Set a max-width for the container */
+  height: 500px;
+  margin: auto; /* Center the container */
+  /* background-color: rgba(255, 255, 255, 0.093);  */
+  background-image: url('https://img.freepik.com/premium-photo/abstract-soft-pink-background_158469-2580.jpg?size=626&ext=jpg&ga=GA1.1.617973568.1689319237&semt=ais');
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Slightly increased box shadow */
+  margin-left: 30px;
+}
+
+.left-section {
+  flex: 1; /* Take up 1/2 of the container */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section img {
+  width: 450px;
+  height: 440px;
+  border-radius: 0 !important;
+  animation: fadeIn 1.5s ease-in-out; /* Example animation - fade in over 1.5 seconds with ease-in-out timing function */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Optional: You can add a slight vertical translation */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.right-section {
+  flex: 1; /* Take up 1/2 of the container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  color: black; /* Darkened heading color */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increased input padding */
+  margin: 10px 0; /* Increased input margin */
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Lightened border color */
+  border-radius: 8px; /* Increased border radius */
+  color: black;
+}
+
+button {
+  background-color: #be43fb;
+  color: #fff;
+  padding: 14px 20px; /* Increased button padding */
+  font-size: 18px;
+  margin-top: 15px; /* Increased button margin */
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #be43fb;
+}
+
+p {
+  margin-top: 15px; /* Increased paragraph margin */
+  font-size: 16px; /* Adjusted paragraph font size */
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+}
