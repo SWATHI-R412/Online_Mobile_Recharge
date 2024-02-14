@@ -1,0 +1,30 @@
+/* RechargeHistory.css */
+
+.recharge-history-container {
+    padding: 20px;
+  }
+  
+  .recharge-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recharge-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .recharge-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .recharge-card p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  

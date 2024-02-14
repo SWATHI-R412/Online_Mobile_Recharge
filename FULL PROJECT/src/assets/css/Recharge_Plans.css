@@ -1,0 +1,155 @@
+/* Recharge_Plans.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #be43fb;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.plans-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.plan-box {
+  max-width: 750px; /* Set a maximum width for responsiveness */
+  width: 100%; /* Ensure each box takes the full available width */
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  flex-direction: column;
+  margin-bottom: 20px; /* Add margin to separate the boxes */
+}
+
+
+.plan-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.plan-box p {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.plan-box button {
+  background-color: #be43fb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.plan-box button:hover {
+  background-color: #963dad;
+}
+
+.recharge-button {
+  margin-top: 40px;
+  background-color: #be43fb;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.recharge-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.recharge-button:hover:disabled {
+  background-color: #ccc;
+}
+
+.form-container {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form-title {
+  color: #be43fb;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #be43fb;
+}
+
+.form-button {
+  background-color: #be43fb;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.form-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-button:hover:disabled {
+  background-color: #ccc;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .plan-box {
+    width: 100%;
+  }
+
+  .recharge-button {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}

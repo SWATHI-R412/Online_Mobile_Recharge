@@ -1,0 +1,29 @@
+/* Add_On.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .heading {
+    color: white;
+    text-align: center;
+    margin: 0;
+  padding: 0;
+  }
+  
+  .inputField {
+    width: 200px;
+  }
+  
+  .radioGroupLabel {
+    color: white;
+  }
+  
+  .rechargeButton {
+    background-color: #3498db;
+    width: 200px;
+  }
+  

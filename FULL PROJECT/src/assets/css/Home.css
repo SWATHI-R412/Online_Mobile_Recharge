@@ -1,0 +1,110 @@
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.header-container,
+.navbar-container,
+.footer-container {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-slider {
+  position: relative;
+  width: 400px; 
+  height: 300px; 
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
+  opacity: 0; 
+  position: absolute;
+  transition: transform 1s ease-in-out;
+}
+
+.image-slider img.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.image-slider img.next {
+  transform: translateX(100%);
+}
+
+.image-slider img.prev {
+  transform: translateX(-100%);
+} */
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+  overflow: auto; /* Enable scrolling for the home container */
+}
+
+.header-container,
+.navbar-container,
+.footer-container {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  padding-left: 840px;
+  text-align: center;
+  position: fixed; /* Fixed position to keep them at the top */
+   /* Add a background color for better visibility */
+  z-index: 100; /* Set a higher z-index to ensure these elements appear above others */
+}
+
+.header-container {
+  top: 0; /* Position at the top */
+}
+
+.navbar-container {
+  top: 50px; /* Adjust the top position based on your header height */
+}
+
+.footer-container {
+  bottom: 0; /* Position at the bottom */
+}
+
+.image-slider {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin-top: 70px; /* Adjust the top margin to prevent overlap with header */
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
+  opacity: 0;
+  position: absolute;
+  transition: transform 1s ease-in-out;
+}
+
+.image-slider img.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.image-slider img.next {
+  transform: translateX(100%);
+}
+
+.image-slider img.prev {
+  transform: translateX(-100%);
+}

@@ -1,0 +1,33 @@
+/* Footer.css */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    padding: 20px -20px; /* Increased padding for more width */
+    margin-left: -353px; /* Adjusted margin-left for left movement */
+  }
+  
+  .footer-bottom {
+    margin-top: -25px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info svg {
+    margin-right: 5px;
+  }
+  

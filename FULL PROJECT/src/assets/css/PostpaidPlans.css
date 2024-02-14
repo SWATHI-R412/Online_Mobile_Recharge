@@ -1,0 +1,77 @@
+
+.postpaid-plans-container {
+  padding: 20px;
+}
+
+
+
+.postpaid-plans-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.postpaid-plans-table th,
+.postpaid-plans-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.postpaid-plans-table th {
+  background-color: #c964fb;
+  color: white;
+}
+
+.postpaid-plans-table tr:nth-child(even) {
+  background-color: #fbade9;
+}
+
+.postpaid-plans-table input {
+  width: 80%;
+  padding: 8px;
+  margin: 0;
+}
+
+.postpaid-plans-table button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.postpaid-plans-table button:last-child {
+  margin-right: 0; 
+}
+
+.postpaid-plans-table button:hover {
+  background-color: #297fb8;
+}
+.postpaid-plans-button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.postpaid-plans-button:last-child {
+  margin-right: 0;
+}
+
+.search-bar-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0; 
+} 
+

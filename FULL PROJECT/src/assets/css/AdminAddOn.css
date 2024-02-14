@@ -1,0 +1,65 @@
+/* AdminAddOn.css */
+.admin-addons-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .addons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .operator-addons,
+  .addons-row,
+  .addon-card,
+  .add-addon-form {
+    flex: 0 0 30%; /* Adjust the width of each section as needed */
+    box-sizing: border-box;
+    border-radius: 10px; /* Curved border radius */
+    overflow: hidden; /* Ensure curved corners are visible */
+  }
+  
+  .operator-addons,
+  .addons-row,
+  .add-addon-form {
+    margin-bottom: 20px;
+  }
+  
+  .addons-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .addon-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 0 0 30%; /* Adjust the width as needed */
+    border-radius: 10px; /* Curved border radius */
+  }
+  
+  .add-addon-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Curved button border radius */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  

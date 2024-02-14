@@ -1,0 +1,81 @@
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color:black;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: #fff;
+  z-index: 1;
+}
+
+.sidebar-content {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  display: none;
+}
+
+.sidebar.open .sidebar-content {
+  width: 200px; 
+  display: block;
+}
+
+.sidebar-nav {
+  list-style: none;
+  color: white;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #fff; 
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left:25px;
+}
+
+/* Add this style to your existing CSS or create a new CSS file */
+.sidebar-item ul {
+  list-style: none;
+  /* margin-right: 20px; */
+  padding-left: 50px;
+}
+
+.sidebar-item ul li {
+  padding: 8px 0;
+}
+
+/* Add this class to the dropdown-menu ul in the JSX */
+.dropdown-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-item ul li a {
+  color: white;
+  text-decoration: none;
+}
+
